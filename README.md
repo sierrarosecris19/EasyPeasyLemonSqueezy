@@ -1,2 +1,2 @@
-# EasyPeasyLemonSqueezy
+# easy-peasy-lemon-squeezy-website
 
