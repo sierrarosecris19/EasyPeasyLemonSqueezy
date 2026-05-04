@@ -210,3 +210,4 @@ function resetSelections() {
     selectedCarb = null;
     selectedVegetable = null;
 }
+
