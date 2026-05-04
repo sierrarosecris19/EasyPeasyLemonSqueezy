@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    #recipe {
+        text-align: center;
+        background-color: white;
+        visibility: hidden;
+    }
+    .build {
+        color: rgb(192, 159, 159);
+        text-align: center;
+        font-family: "Lucida Console", monospace;
+    }
+    body {
+    background-color: rgb(92, 37, 124);
+    }
+    .title {
+        font-size: 35px;
+        background-color:rgb(64, 64, 115);
+        font-family: "Lucida Console", monospace;
+        text-align: center;
+        color: rgb(37, 5, 34);
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+    .link {
+        display: block;
+        text-align: center;
+        color: rgb(192, 159, 159);
+        font-size: 20px;
+        font-family: "Lucida Console", monospace;
+    }
+    #Ingredient-name {
+        font-weight: bold;
+        font-family: "Lucida Console", monospace;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(192, 159, 159);
+
+    }
+    h1 {
+            text-align: center;
+    }
+
+    .food {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+    }
+
+    .food img {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+    }
+
+    #tofu {
+            bottom: 10px;
+    }
+
+    #steak {
+            bottom: 10px;
+            left: 150px;
+    }
+
+    #chicken {
+            bottom: 10px;
+            right: 150px;
+    }
+
+    #potato {
+            top: 0px;
+            left: 150px;
+    }
+
+    #rice {
+            top: 0px;
+            right: 150px;
+    }
+
+    #sweetPotato {
+            top: 0px;
+    }
+
+
+    #broccoli {
+            bottom: 5px;
+            left: 150px;
+    }
+
+    #carrots {
+            bottom: 5px;
+            right: 150px;
+    }
+
+    #greenBeans {
+            bottom: 5px;           
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="title"
+        <h2>Easy Peasy Lemon Squeezy</h2>
+        <h2>Build A Meal!</h2>
+    </div>
+
+<div class="build">
+    <img src="https://images.freeimages.com/cme/images/istock/previews/2218/22184954-recipes.jpg" height="200" width="400" alt="Singing Twins">
+    <h1 >Start building:</h1>
+    </div>
+    <p id="Ingredient-name">Ingredient 1: Protein</p>
+        <div class="food">
+            <img id="tofu" src="Food/Proteins/Tofu.png" alt="tofu" id="tofu">
+            <img id="steak" src="Food/Proteins/Steak.png" alt="steak" id="steak">
+            <img id="chicken" src="Food/Proteins/Chicken.png" alt="chicken" id="chicken">
+        </div>
+    <p id="Ingredient-name">Ingredient 2: Carb</p>
+        <div class="food">
+            <img id="potato" src="Food/Carbs/Potato.png" alt="potato" id="potato">
+            <img id="rice" src="Food/Carbs/Rice.png" alt="rice" id="rice">
+            <img id="sweetPotato" src="Food/Carbs/SweetPotato.png" alt="sweetpotato" id="sweetPotato">
+        </div>
+    <p id="Ingredient-name">Ingredient 3: Vegetable</p>
+        <div class="food">
+            <img id="broccoli" src="Food/Vegetables/Broccoli.png" alt="broccoli" id="broccoli">
+            <img id="carrots" src="Food/Vegetables/Carrots.png" alt="carrots" id="carrots">
+            <img id="greenBeans" src="Food/Vegetables/GreenBeans.png" alt="greenbeans" id="greenBeans">
+        </div>
+
+<a class="link" href="About.html">Directions</a>
+<a id="reset" class="link" href="BuildAMeal.html">Reset</a>
+
+<div id="recipe"></div>
+<script src="Select.js"></script>
+</body>
+</html>
